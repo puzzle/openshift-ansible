@@ -28,4 +28,5 @@
     body_format: json
     status_code: 201
     HEADER_Authorization: "Bearer {{ kubernetes_token }}"
+    validate_certs: no
   with_items: partition_pool
